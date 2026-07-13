@@ -114,6 +114,19 @@
             .main-question { font-size: 1.2rem; }
             .btn { padding: 0.8rem 1.8rem; font-size: 1rem; }
             .celebration-title { font-size: 1.8rem; }
+            
+            /* Slower animations for mobile */
+            .floating-item { animation-duration: 25s !important; }
+            .sparkle { animation-duration: 5s !important; }
+            .coffee-cup { animation-duration: 5s !important; }
+            .steam { animation-duration: 3.5s !important; }
+            .confetti { animation-duration: 5s !important; }
+            .fly-particle { animation-duration: 3.5s !important; }
+            .cursor-sparkle { animation-duration: 1.8s !important; }
+            .celebration-heart { animation-duration: 1.8s !important; }
+            .btn-no.wiggle { animation-duration: 0.8s !important; }
+            @keyframes gentleBounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+            @keyframes excitedBounce { 0%, 100% { transform: translateY(0) rotate(-2deg); } 50% { transform: translateY(-8px) rotate(2deg); } }
         }
     </style>
 </head>
